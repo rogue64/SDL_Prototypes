@@ -1,8 +1,6 @@
 #pragma once
 #include "SDL\SDL.h"
 
-// TODO
-
 //constants
 static const int WINDOW_W = 1024;
 static const int WINDOW_H = 768;
