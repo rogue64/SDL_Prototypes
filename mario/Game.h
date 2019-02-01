@@ -27,6 +27,7 @@ static const int DELTA_MIN = SEC / FPS;
 static const float DELTA_CAP = 0.033;
 static const int FRST_BLOCK = 65; // the char code for the first block type
 static const int BLOCK_TYPES = 15; // total number of block types
+static const int PLAYER_SPD = 300;
 
 class Game {
 private:
