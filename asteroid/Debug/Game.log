@@ -1,0 +1,36 @@
+﻿  Actor.cpp
+c:\users\richard flores\desktop\school\2019-spring\itp380\flores-richard-itp380-20191\lab02\game.h(24): warning C4305: 'initializing': truncation from 'double' to 'float'
+  Asteroid.cpp
+c:\users\richard flores\desktop\school\2019-spring\itp380\flores-richard-itp380-20191\lab02\game.h(24): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\richard flores\desktop\school\2019-spring\itp380\flores-richard-itp380-20191\lab02\asteroid.cpp(12): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+  Component.cpp
+  Game.cpp
+c:\users\richard flores\desktop\school\2019-spring\itp380\flores-richard-itp380-20191\lab02\game.h(24): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\richard flores\desktop\school\2019-spring\itp380\flores-richard-itp380-20191\lab02\game.cpp(31): warning C4554: '&': check operator precedence for possible error; use parentheses to clarify precedence
+  Laser.cpp
+c:\users\richard flores\desktop\school\2019-spring\itp380\flores-richard-itp380-20191\lab02\game.h(24): warning C4305: 'initializing': truncation from 'double' to 'float'
+  Main.cpp
+c:\users\richard flores\desktop\school\2019-spring\itp380\flores-richard-itp380-20191\lab02\game.h(24): warning C4305: 'initializing': truncation from 'double' to 'float'
+  MoveComponent.cpp
+  Ship.cpp
+c:\users\richard flores\desktop\school\2019-spring\itp380\flores-richard-itp380-20191\lab02\game.h(24): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\richard flores\desktop\school\2019-spring\itp380\flores-richard-itp380-20191\lab02\ship.cpp(25): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+c:\users\richard flores\desktop\school\2019-spring\itp380\flores-richard-itp380-20191\lab02\ship.cpp(27): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+c:\users\richard flores\desktop\school\2019-spring\itp380\flores-richard-itp380-20191\lab02\ship.cpp(34): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+  SpriteComponent.cpp
+c:\users\richard flores\desktop\school\2019-spring\itp380\flores-richard-itp380-20191\lab02\game.h(24): warning C4305: 'initializing': truncation from 'double' to 'float'
+  Generating Code...
+  Game.vcxproj -> C:\Users\Richard Flores\Desktop\SCHOOL\2019-spring\itp380\flores-richard-itp380-20191\Lab02\Debug\Game.exe
+  C:\Users\Richard Flores\Desktop\SCHOOL\2019-spring\itp380\flores-richard-itp380-20191\Lab02\\..\Libraries\SDL\lib\win\x86\libfreetype-6.dll
+  C:\Users\Richard Flores\Desktop\SCHOOL\2019-spring\itp380\flores-richard-itp380-20191\Lab02\\..\Libraries\SDL\lib\win\x86\libogg-0.dll
+  C:\Users\Richard Flores\Desktop\SCHOOL\2019-spring\itp380\flores-richard-itp380-20191\Lab02\\..\Libraries\SDL\lib\win\x86\libpng16-16.dll
+  C:\Users\Richard Flores\Desktop\SCHOOL\2019-spring\itp380\flores-richard-itp380-20191\Lab02\\..\Libraries\SDL\lib\win\x86\libvorbis-0.dll
+  C:\Users\Richard Flores\Desktop\SCHOOL\2019-spring\itp380\flores-richard-itp380-20191\Lab02\\..\Libraries\SDL\lib\win\x86\libvorbisfile-3.dll
+  C:\Users\Richard Flores\Desktop\SCHOOL\2019-spring\itp380\flores-richard-itp380-20191\Lab02\\..\Libraries\SDL\lib\win\x86\SDL2.dll
+  C:\Users\Richard Flores\Desktop\SCHOOL\2019-spring\itp380\flores-richard-itp380-20191\Lab02\\..\Libraries\SDL\lib\win\x86\SDL2_image.dll
+  C:\Users\Richard Flores\Desktop\SCHOOL\2019-spring\itp380\flores-richard-itp380-20191\Lab02\\..\Libraries\SDL\lib\win\x86\SDL2_mixer.dll
+  C:\Users\Richard Flores\Desktop\SCHOOL\2019-spring\itp380\flores-richard-itp380-20191\Lab02\\..\Libraries\SDL\lib\win\x86\SDL2_ttf.dll
+  C:\Users\Richard Flores\Desktop\SCHOOL\2019-spring\itp380\flores-richard-itp380-20191\Lab02\\..\Libraries\SDL\lib\win\x86\zlib1.dll
+  10 File(s) copied
+  C:\Users\Richard Flores\Desktop\SCHOOL\2019-spring\itp380\flores-richard-itp380-20191\Lab02\\..\Libraries\GLEW\lib\win\x86\glew32.dll
+  1 File(s) copied
