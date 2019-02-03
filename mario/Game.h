@@ -1,4 +1,5 @@
 #pragma once
+#include "constants.h"
 #include "SDL\SDL.h"
 #include "Actor.h"
 #include "SpriteComponent.h"
@@ -18,17 +19,6 @@ class Actor;
 class Block;
 class Player;
 
-//constants
-static const int WINDOW_W = 600;
-static const int WINDOW_H = 488;
-static const int SEC = 1000; // a second in ms
-static const int FPS = 60;
-static const int DELTA_MIN = SEC / FPS;
-static const float DELTA_CAP = 0.033;
-static const int FRST_BLOCK = 65; // the char code for the first block type
-static const int BLOCK_TYPES = 15; // total number of block types
-static const int PLAYER_SPD = 300;
-
 class Game {
 private:
 	// window for game
@@ -44,9 +34,15 @@ private:
 	// bool to keep track if game is off or not
 	bool off = false;
 
+	// game's camera position
+	Vector2 my_camera = Vector2::Zero;
+
 	// vector of Actor pointers
 	std::vector<Actor*> my_actors;
 	std::vector<Actor*> new_actors;
+
+	// vector of pointers to loaded blocks (for collsions)
+	std::vector<Block*> my_blocks;
 
 	// vector of SpriteComponent pointers
 	std::vector<SpriteComponent*> my_sprites;
@@ -87,6 +83,15 @@ public:
 	// removes Actor matching given pointer
 	void removeActor(Actor* actor);
 
+	// returns vector of game's block's pointers
+	const std::vector<Block*>& getBlocks() const { return my_blocks; }
+
+	// adds given block to game's vector
+	void addBlock(Block* block);
+
+	// deletes given block from vector
+	void removeBlock(Block* block);
+
 	// adds given spriteComponent to game
 	void addSprite(SpriteComponent* sprite);
 
@@ -95,4 +100,7 @@ public:
 
 	// returns texture from given file
 	SDL_Texture* getTexture(std::string filename);
+
+	// accesses the game's camera variable
+	Vector2& getCamera() { return my_camera; }
 };

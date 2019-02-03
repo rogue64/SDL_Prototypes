@@ -176,15 +176,28 @@ void Game::removeActor(Actor* actor) {
 		my_actors.erase(i);
 }
 
+void Game::addBlock(Block* block) { 
+	my_blocks.push_back(block);
+}
+
+void Game::removeBlock(Block* block) { 
+	std::vector<Block*>::iterator i = my_blocks.begin();
+	for (; i != my_blocks.end(); i++)
+		if (*i == block)
+			break;
+	if (i != my_blocks.end())
+		my_blocks.erase(i);
+}
+
 void Game::LoadData() {
 	// load background
 	Actor* Background = new Actor(this);
 	SpriteComponent* bg_spr = new SpriteComponent(Background, 1);
 	bg_spr->SetTexture(getTexture("Assets/Background.png"));
-	Background->SetPosition(Vector2(3392, 224)); // needs to be to this position since bg is so big
+	Background->SetPosition(Vector2(bg_spr->GetTexWidth() / 2, bg_spr->GetTexHeight() / 2)); // needs to be to this position since bg is so big
 
 	// parse level file
-	std::ifstream level("Assets/Level0.txt");
+	std::ifstream level("Assets/Level1.txt");
 	std::string curr_line;
 	size_t i = 0;
 	while (std::getline(level, curr_line)) {
@@ -192,10 +205,11 @@ void Game::LoadData() {
 			// get position of current cell
 			Vector2 curr_pos((j * block_const::SIZE) + (block_const::SIZE / 2),
 				(i * block_const::SIZE) + (block_const::SIZE / 2));
-			if (((int)curr_line[j] >= FRST_BLOCK) && ((int)curr_line[j] < FRST_BLOCK + BLOCK_TYPES)) {
-				std::string block_name = "Assets/Block";// +curr_line[j];
+			if (((int)curr_line[j] >= block_const::FIRST_TYP) && 
+				((int)curr_line[j] < block_const::FIRST_TYP + block_const::NUM_TYPS)) {
+				std::string block_name = "Assets/Block";
 				block_name += curr_line[j];
-				block_name += ".png"; // workaround to use 3 lines, won't let me do in 1 or 2
+				block_name += ".png"; // workaround to use 3 lines, won't let me do in 1 or 2 lines
 				new Block(this, curr_pos, getTexture(block_name));
 			}
 			if (curr_line[j] == 'P')

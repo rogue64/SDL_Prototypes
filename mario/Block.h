@@ -1,12 +1,9 @@
 #pragma once
+#include "constants.h"
 #include "Actor.h"
 #include "SpriteComponent.h"
 #include "CollisionComponent.h"
 #include "Game.h"
-
-namespace block_const {
-	static const int SIZE = 32;
-};
 
 class Block : public Actor {
 public:
@@ -14,6 +11,8 @@ public:
 	~Block();
 	// changes Block's texture to given texture; on failure, it keeps current texture
 	void applyTexture(std::string in);
+	// returns pointer to our collision component
+	const CollisionComponent* getCollision() const { return my_cc; }
 protected:
 	// sprite component
 	SpriteComponent* my_spr = nullptr;

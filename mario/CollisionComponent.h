@@ -24,7 +24,7 @@ public:
 	}
 
 	// Returns true if this box intersects with other
-	bool Intersect(const CollisionComponent* other);
+	bool Intersect(const CollisionComponent* other) const;
 
 	// Get min and max points of box
 	Vector2 GetMin() const;
@@ -39,7 +39,7 @@ public:
 	// or None if no overlap
 	// Takes in by reference the offset to fix
 	// "this" so it no longer overlaps with "other"
-	CollSide GetMinOverlap(const CollisionComponent* other, Vector2& offset);
+	CollSide GetMinOverlap(const CollisionComponent* other, Vector2& offset) const;
 private:
 	float mWidth;
 	float mHeight;

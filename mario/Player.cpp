@@ -6,7 +6,7 @@ Player::Player(Game* owner, Vector2 pos) : Actor(owner) {
 	my_spr->SetTexture(owner->getTexture("Assets/Mario/Idle.png"));
 	// set collision component
 	my_cc = new CollisionComponent(this);
-	my_cc->SetSize(plyr_const::SIZE, plyr_const::SIZE);
+	my_cc->SetSize(player_const::SIZE, player_const::SIZE);
 	// set players move component
 	my_mc = new PlayerMovComp(this);
 	mPosition = pos;

@@ -74,5 +74,8 @@
     </ClInclude>
     <ClInclude Include="Player.h" />
     <ClInclude Include="PlayerMovComp.h" />
+    <ClInclude Include="constants.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

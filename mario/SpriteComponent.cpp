@@ -24,9 +24,10 @@ void SpriteComponent::Draw(SDL_Renderer* renderer)
 		SDL_Rect r;
 		r.w = static_cast<int>(mTexWidth * mOwner->GetScale());
 		r.h = static_cast<int>(mTexHeight * mOwner->GetScale());
-		// Center the rectangle around the position of the owner
-		r.x = static_cast<int>(mOwner->GetPosition().x - r.w / 2);
-		r.y = static_cast<int>(mOwner->GetPosition().y - r.h / 2);
+		// Center the rectangle around the position of the owner 
+		// but proportional to the camera: screen_pos = world_pos - camera_pos
+		r.x = static_cast<int>((mOwner->GetPosition().x - r.w / 2) - mOwner->GetGame()->getCamera().x);
+		r.y = static_cast<int>((mOwner->GetPosition().y - r.h / 2) - mOwner->GetGame()->getCamera().y);
 
 		// Draw (have to convert angle from radians to degrees, and clockwise to counter)
 		SDL_RenderCopyEx(renderer,

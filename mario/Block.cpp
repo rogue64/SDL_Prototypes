@@ -6,9 +6,10 @@ Block::Block(Game* owner, Vector2 pos, SDL_Texture* tex) : Actor(owner) {
 	mPosition = pos;
 	my_cc = new CollisionComponent(this);
 	my_cc->SetSize(block_const::SIZE, block_const::SIZE);
+	owner->addBlock(this);
 }
 
-Block::~Block() { }
+Block::~Block() { mGame->removeBlock(this); }
 
 void Block::applyTexture(std::string in) {
 	// check if there os a new tex at given filename
