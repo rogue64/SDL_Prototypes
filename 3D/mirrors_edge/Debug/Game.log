@@ -1,0 +1,24 @@
+﻿  HUD.cpp
+c:\users\richard flores\desktop\school\2019-spring\itp380\flores-richard-itp380-20191\lab12\hud.cpp(40): warning C4150: deletion of pointer to incomplete type 'Texture'; no destructor called
+  c:\users\richard flores\desktop\school\2019-spring\itp380\flores-richard-itp380-20191\lab12\uicomponent.h(14): note: see declaration of 'Texture'
+c:\users\richard flores\desktop\school\2019-spring\itp380\flores-richard-itp380-20191\lab12\hud.cpp(50): warning C4150: deletion of pointer to incomplete type 'Texture'; no destructor called
+  c:\users\richard flores\desktop\school\2019-spring\itp380\flores-richard-itp380-20191\lab12\uicomponent.h(14): note: see declaration of 'Texture'
+c:\users\richard flores\desktop\school\2019-spring\itp380\flores-richard-itp380-20191\lab12\hud.cpp(67): warning C4018: '<': signed/unsigned mismatch
+c:\users\richard flores\desktop\school\2019-spring\itp380\flores-richard-itp380-20191\lab12\hud.cpp(79): warning C4150: deletion of pointer to incomplete type 'Texture'; no destructor called
+  c:\users\richard flores\desktop\school\2019-spring\itp380\flores-richard-itp380-20191\lab12\uicomponent.h(14): note: see declaration of 'Texture'
+c:\users\richard flores\desktop\school\2019-spring\itp380\flores-richard-itp380-20191\lab12\hud.cpp(96): warning C4150: deletion of pointer to incomplete type 'Texture'; no destructor called
+  c:\users\richard flores\desktop\school\2019-spring\itp380\flores-richard-itp380-20191\lab12\uicomponent.h(14): note: see declaration of 'Texture'
+  Game.vcxproj -> C:\Users\Richard Flores\Desktop\SCHOOL\2019-spring\itp380\flores-richard-itp380-20191\Lab12\Debug\Game.exe
+  C:\Users\Richard Flores\Desktop\SCHOOL\2019-spring\itp380\flores-richard-itp380-20191\Lab12\\..\Libraries\SDL\lib\win\x86\libfreetype-6.dll
+  C:\Users\Richard Flores\Desktop\SCHOOL\2019-spring\itp380\flores-richard-itp380-20191\Lab12\\..\Libraries\SDL\lib\win\x86\libogg-0.dll
+  C:\Users\Richard Flores\Desktop\SCHOOL\2019-spring\itp380\flores-richard-itp380-20191\Lab12\\..\Libraries\SDL\lib\win\x86\libpng16-16.dll
+  C:\Users\Richard Flores\Desktop\SCHOOL\2019-spring\itp380\flores-richard-itp380-20191\Lab12\\..\Libraries\SDL\lib\win\x86\libvorbis-0.dll
+  C:\Users\Richard Flores\Desktop\SCHOOL\2019-spring\itp380\flores-richard-itp380-20191\Lab12\\..\Libraries\SDL\lib\win\x86\libvorbisfile-3.dll
+  C:\Users\Richard Flores\Desktop\SCHOOL\2019-spring\itp380\flores-richard-itp380-20191\Lab12\\..\Libraries\SDL\lib\win\x86\SDL2.dll
+  C:\Users\Richard Flores\Desktop\SCHOOL\2019-spring\itp380\flores-richard-itp380-20191\Lab12\\..\Libraries\SDL\lib\win\x86\SDL2_image.dll
+  C:\Users\Richard Flores\Desktop\SCHOOL\2019-spring\itp380\flores-richard-itp380-20191\Lab12\\..\Libraries\SDL\lib\win\x86\SDL2_mixer.dll
+  C:\Users\Richard Flores\Desktop\SCHOOL\2019-spring\itp380\flores-richard-itp380-20191\Lab12\\..\Libraries\SDL\lib\win\x86\SDL2_ttf.dll
+  C:\Users\Richard Flores\Desktop\SCHOOL\2019-spring\itp380\flores-richard-itp380-20191\Lab12\\..\Libraries\SDL\lib\win\x86\zlib1.dll
+  10 File(s) copied
+  C:\Users\Richard Flores\Desktop\SCHOOL\2019-spring\itp380\flores-richard-itp380-20191\Lab12\\..\Libraries\GLEW\lib\win\x86\glew32.dll
+  1 File(s) copied

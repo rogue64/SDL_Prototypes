@@ -1,0 +1,41 @@
+﻿  Actor.cpp
+  AnimatedSprite.cpp
+  Collider.cpp
+c:\users\richard flores\desktop\school\2019-spring\itp380\flores-richard-itp380-20191\lab05\collider.cpp(8): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\richard flores\desktop\school\2019-spring\itp380\flores-richard-itp380-20191\lab05\collider.cpp(9): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Door.cpp
+c:\users\richard flores\desktop\school\2019-spring\itp380\flores-richard-itp380-20191\lab05\door.cpp(14): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Game.cpp
+c:\users\richard flores\desktop\school\2019-spring\itp380\flores-richard-itp380-20191\lab05\game.cpp(29): warning C4554: '&': check operator precedence for possible error; use parentheses to clarify precedence
+c:\users\richard flores\desktop\school\2019-spring\itp380\flores-richard-itp380-20191\lab05\game.cpp(234): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Main.cpp
+  Player.cpp
+c:\users\richard flores\desktop\school\2019-spring\itp380\flores-richard-itp380-20191\lab05\player.cpp(13): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+  PlayerMovComp.cpp
+c:\users\richard flores\desktop\school\2019-spring\itp380\flores-richard-itp380-20191\lab05\playermovcomp.cpp(26): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+c:\users\richard flores\desktop\school\2019-spring\itp380\flores-richard-itp380-20191\lab05\playermovcomp.cpp(29): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+c:\users\richard flores\desktop\school\2019-spring\itp380\flores-richard-itp380-20191\lab05\playermovcomp.cpp(32): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+c:\users\richard flores\desktop\school\2019-spring\itp380\flores-richard-itp380-20191\lab05\playermovcomp.cpp(35): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+  Secret.cpp
+c:\users\richard flores\desktop\school\2019-spring\itp380\flores-richard-itp380-20191\lab05\secret.cpp(12): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\richard flores\desktop\school\2019-spring\itp380\flores-richard-itp380-20191\lab05\secret.cpp(13): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  SpriteComponent.cpp
+  TiledBGComp.cpp
+c:\users\richard flores\desktop\school\2019-spring\itp380\flores-richard-itp380-20191\lab05\tiledbgcomp.cpp(88): warning C4018: '>': signed/unsigned mismatch
+c:\users\richard flores\desktop\school\2019-spring\itp380\flores-richard-itp380-20191\lab05\tiledbgcomp.cpp(91): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\richard flores\desktop\school\2019-spring\itp380\flores-richard-itp380-20191\lab05\tiledbgcomp.cpp(92): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  Generating Code...
+  Game.vcxproj -> C:\Users\Richard Flores\Desktop\SCHOOL\2019-spring\itp380\flores-richard-itp380-20191\Lab05\Debug\Game.exe
+  C:\Users\Richard Flores\Desktop\SCHOOL\2019-spring\itp380\flores-richard-itp380-20191\Lab05\\..\Libraries\SDL\lib\win\x86\libfreetype-6.dll
+  C:\Users\Richard Flores\Desktop\SCHOOL\2019-spring\itp380\flores-richard-itp380-20191\Lab05\\..\Libraries\SDL\lib\win\x86\libogg-0.dll
+  C:\Users\Richard Flores\Desktop\SCHOOL\2019-spring\itp380\flores-richard-itp380-20191\Lab05\\..\Libraries\SDL\lib\win\x86\libpng16-16.dll
+  C:\Users\Richard Flores\Desktop\SCHOOL\2019-spring\itp380\flores-richard-itp380-20191\Lab05\\..\Libraries\SDL\lib\win\x86\libvorbis-0.dll
+  C:\Users\Richard Flores\Desktop\SCHOOL\2019-spring\itp380\flores-richard-itp380-20191\Lab05\\..\Libraries\SDL\lib\win\x86\libvorbisfile-3.dll
+  C:\Users\Richard Flores\Desktop\SCHOOL\2019-spring\itp380\flores-richard-itp380-20191\Lab05\\..\Libraries\SDL\lib\win\x86\SDL2.dll
+  C:\Users\Richard Flores\Desktop\SCHOOL\2019-spring\itp380\flores-richard-itp380-20191\Lab05\\..\Libraries\SDL\lib\win\x86\SDL2_image.dll
+  C:\Users\Richard Flores\Desktop\SCHOOL\2019-spring\itp380\flores-richard-itp380-20191\Lab05\\..\Libraries\SDL\lib\win\x86\SDL2_mixer.dll
+  C:\Users\Richard Flores\Desktop\SCHOOL\2019-spring\itp380\flores-richard-itp380-20191\Lab05\\..\Libraries\SDL\lib\win\x86\SDL2_ttf.dll
+  C:\Users\Richard Flores\Desktop\SCHOOL\2019-spring\itp380\flores-richard-itp380-20191\Lab05\\..\Libraries\SDL\lib\win\x86\zlib1.dll
+  10 File(s) copied
+  C:\Users\Richard Flores\Desktop\SCHOOL\2019-spring\itp380\flores-richard-itp380-20191\Lab05\\..\Libraries\GLEW\lib\win\x86\glew32.dll
+  1 File(s) copied
